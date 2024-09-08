@@ -1,0 +1,344 @@
+@font-face {
+    font-family: PPEditorial;
+    src: url('res/PPEditorialNew.otf')format(opentype);
+}
+@font-face {
+    font-family: 'SFUIText';
+    src: url('SFUI/SFUIText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText';
+    src: url('SFUI/SFUIText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText';
+    src: url('SFUI/SFUIText-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText';
+    src: url('SFUI/SFUIText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText';
+    src: url('SFUI/SFUIText-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'good',sans-serif;
+    src: url('res/PPEditorialNew-Regular.otf') format(opentype);
+}
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    margin: 0;
+    padding-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: #f5f5f7;
+}
+  
+#bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #6e6e7f;
+    font-family: 'Sora', sans-serif;
+}
+
+#name{
+    margin: 0px;
+    letter-spacing: -0.8px;
+    font-size: 3.7vw;
+}
+
+#tabs{
+    display: flex;
+    gap: 3vw;
+}
+
+.option{
+    margin: 0px;
+    font-size: 2.6vw;
+    font-weight: 455;
+}
+
+
+#content{
+    padding-top: 50px;
+}
+
+#T1{
+   font-family: 'Sora',sans-serif;
+   font-size: 3.6vw;
+   color: #91919d;
+   margin-top: 2vw;
+   margin-bottom: 0px;
+}
+
+
+#T2{
+    color: black;
+    font-family: 'Sora',sans-serif;
+    font-weight: 400;
+    line-height: 180%;
+    font-size: 8vw;
+    margin-top: 3vw;
+}
+
+.italic{
+    font-family: 'PPEditorial',sans-serif;
+    color: #1152B3;
+}
+
+#one{
+    color: black;
+    font-family: 'PPEditorial',sans-serif;
+    font-weight: 500;
+}
+
+#Profile{
+    height: 130vw;
+    width:100%;
+    background-color: #2f013f;
+    border-radius: 3vw;
+    box-shadow: 2px 4px 20px #00000014;
+    overflow: hidden;
+    position: relative;
+}
+#Profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grey{
+    color: #6e6e7f;
+}
+
+#T3{
+    font-family: 'SFUIText',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vw;
+    margin: 0;
+    margin-top: 14vw;
+    margin-bottom: 4vw;
+}
+
+#T4{
+    font-family: 'Sora',sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #363636;
+    margin: 0;
+    margin-left: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+.slider-container {
+    display: flex;
+    gap: 3vw;
+    overflow-x: scroll;
+    padding: 20px;
+    padding-left: 0;
+    scrollbar-width: none;
+    margin-bottom: 10vw;
+}
+.card {
+    background-color: white;
+    border-radius: 3vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 96%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.image-placeholder {
+    background-color: lightgray;
+    height: 100vw;
+}
+
+.card .image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    font-family: 'Sora',sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.content h1 {
+    font-family: 'SFUIText',sans-serif;
+    font-weight: 500;
+    font-size: 4.5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content p {
+    font-size: 3vw;
+    margin: 0;
+    margin-top: 5px;
+    color: grey;
+}
+
+#Footer{
+    color: grey;
+    font-family: 'Sora',sans-serif;
+    font-weight: 400;
+    text-align: center; 
+    margin-top: 90px;
+}
+#img-cont{
+    position: absolute; /* Ensures the text overlays the image */
+    bottom: 20px; /* Adjust this value as needed */
+    left: 20px;
+}
+#undername1{
+    font-family: 'SFUI', sans-serif;
+    font-weight: 700;
+    font-size: 7vw;
+    letter-spacing: -0.5px;
+    margin: 0;
+    color: #eeeeee;
+}
+
+#undername2{
+    font-family: 'PPEditorial', sans-serif;
+    font-size: 4vw; 
+    letter-spacing: 0.6px;
+    margin: 0;
+    margin-top: 5px;
+    color: rgb(237, 237, 237);
+    
+}
+
+@media (min-device-width: 768px) {
+    body{
+        padding: 66px 132px 40px 132px;
+        margin: 0;
+    }
+
+    #name{
+        font-size: 16px;
+    }
+
+    .option{
+        font-size: 12px;
+    }   
+
+    #T1{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    #T2{
+        font-size: 36px;
+        margin: 0;
+    }
+
+    #head-div{
+        display: flex;
+        gap: 2vw;
+        margin-top: 5vh;
+        margin-bottom: 12vh;
+    }
+
+    #Profile{
+        height: 520px;
+        width: 400px;
+        min-width: 400px;   
+        border-radius: 3.5%;
+    }
+
+    #T3{
+        margin: 0;
+        font-size: 36px;
+    }
+
+    #T4{    
+        font-size: 24px;
+        margin: 0;
+        margin-top: 4vh;
+    }
+
+    .slider-container {
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        padding: 20px;
+        padding-left: 0;
+        scrollbar-width: none;
+        margin-bottom: 0;
+    }
+    
+    .card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        min-width: 400px;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    
+    .image-placeholder {
+        background-color: lightgray;
+        height: 450px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-family: 'SFUIText',sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .content p {
+        font-size: 12px;
+        margin: 0;
+        margin-top: 5px;
+        color: grey;
+    }
+
+    #Footer{
+        color: grey;
+        font-family: 'Sora',sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    #img-cont{
+        position: absolute; /* Ensures the text overlays the image */
+        bottom: 20px; /* Adjust this value as needed */
+        left: 20px;
+    }
+    #undername1{
+        font-weight: 700;
+        font-size: 2vw;
+        letter-spacing: -1px;
+        margin: 0;
+    }
+    #undername2{
+        font-weight: 500;
+        font-size: 1vw; 
+        margin: 0;
+    }
+}

@@ -203,7 +203,7 @@ body{
 }
 #img-cont{
     position: absolute; /* Ensures the text overlays the image */
-    bottom: 20px; /* Adjust this value as needed */
+    top: 20px; /* Adjust this value as needed */
     left: 20px;
 }
 #undername1{
